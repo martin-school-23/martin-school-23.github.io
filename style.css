@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.small1 {
+    position: fixed;
+    top: 9vh;
+    font-size: 1.4vh;
+    width: 28vw;
+    height: 23vh;
+    color: #888;
+    margin-left: 3vw;
+}
+
+.small2 {
+    position: fixed;
+    bottom: 9vh;
+    font-size: 1.4vh;
+    width: 28vw;
+    height: 23vh;
+    color: #888;
+    margin-left: 3vw;
+}
+
+.large {
+    position: fixed;
+    bottom: 32vh;
+    font-size: 2.2vh;
+    width: 40vw;
+    height: 36vh;
+    color: white;
+    margin-left: 2vw;
+}
+
+.hidden {
+    display: none;
+}
+
+.slide-image {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 55vw;
+    object-fit: cover;
+}
+
+.hidden-image {
+    position: fixed;
+    right: 0;
+    top: -100vh;
+    height: 100vh;
+    width: 55vw;
+    object-fit: cover;
+}
+
+#label {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #000000a0;
+    font-size: 2.2vh;
+    padding: 1.2vh;
+    text-align: right;
+}

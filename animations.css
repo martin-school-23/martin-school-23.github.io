@@ -1,0 +1,95 @@
+@keyframes large-to-small1 {
+    from {
+        position: fixed;
+        top: 32vh;
+        font-size: 2.2vh;
+        width: 40vw;
+        height: 36vh;
+        color: white;
+        margin-left: 2vw;
+    }
+
+    to {
+        position: fixed;
+        top: 9vh;
+        font-size: 1.4vh;
+        width: 28vw;
+        height: 23vh;
+        color: #888;
+        margin-left: 3vw;
+    }
+}
+
+@keyframes large-to-small2 {
+    from {
+        position: fixed;
+        bottom: 32vh;
+        font-size: 2.2vh;
+        width: 40vw;
+        height: 36vh;
+        color: white;
+        margin-left: 2vw;
+    }
+
+    to {
+        position: fixed;
+        bottom: 9vh;
+        font-size: 1.4vh;
+        width: 28vw;
+        height: 23vh;
+        color: #888;
+        margin-left: 3vw;
+    }
+}
+
+@keyframes small-to-out {
+    from {
+        z-index: -100;
+        color: #888;
+    }
+
+    to {
+        z-index: -100;
+        color: #000;
+    }
+}
+
+@keyframes image-up-out {
+    from{
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 55vw;
+        object-fit: cover;
+    }
+
+    to {
+        position: fixed;
+        right: 0;
+        top: -100vh;
+        height: 100vh;
+        width: 55vw;
+        object-fit: cover;
+    }
+}
+
+@keyframes image-down-out {
+    from {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 55vw;
+        object-fit: cover;
+    }
+
+    to {
+        position: fixed;
+        right: 0;
+        top: 100vh;
+        height: 100vh;
+        width: 55vw;
+        object-fit: cover;
+    }
+}
